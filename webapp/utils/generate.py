@@ -13,7 +13,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 openai.organization = "org-Ox6aCGz8gQrZEsxvCX0LeGh6"
 
 import yaml
-with open(os.getcwd() + "/utils/config.yml") as f:
+with open(os.getcwd() + "webapp/utils/config.yml") as f:
     configData = yaml.safe_load(f)
 
 # PROCESS

@@ -1,6 +1,12 @@
 # ai-mag
 the first AI literary magazine
 
+### setup
+0. create webapp/.env and add OPENAI_API_KEY=enter your api key
+1. pip install -r requirements.txt
+2. cd webapp
+3. python -m streamlit run ABOUT.py
+
 ### logs
 
 **setup**

@@ -3,7 +3,7 @@ import os
 
 def load_examples(writing_type):
     examples_dict = defaultdict()
-    directory = os.getcwd() + "/data/" + writing_type
+    directory = os.getcwd() + "webapp/data/" + writing_type
     for filename in os.listdir(directory):
         if filename.endswith(".txt"):
             with open(directory + "/" + filename, 'r', encoding='utf-8') as f:
