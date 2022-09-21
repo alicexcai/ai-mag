@@ -25,13 +25,3 @@ if st.button("Generate"):
             output = utils.generate.generate_text_fewshot(topic=topic, examples=examples, writing_type=writing_type, model=model)
             st.write(output)
         st.success("Done!")
-
-# # TEMP
-
-# import csv
-# import os
-# if st.button("Process data"):
-#     with open(os.getcwd() + '/data/poetry/dict.csv', 'w') as csv_file:  
-#         writer = csv.writer(csv_file)
-#         for key, value in mydict.items():
-#             writer.writerow([key, value])

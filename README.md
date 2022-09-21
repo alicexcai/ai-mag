@@ -1,6 +1,10 @@
 # ai-mag
 the first AI literary magazine
 
+### setup
+checkout to dev to run local
+use deployed app at https://alicexcai-ai-mag-webappabout-uch3vw.streamlitapp.com
+
 ### logs
 
 **setup**
