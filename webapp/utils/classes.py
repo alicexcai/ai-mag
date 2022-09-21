@@ -22,7 +22,7 @@ class WritingData:
     
     def load_examples(self):
         examples_dict = {}
-        directory = os.getcwd() + "webapp/data/" + self.writing_type
+        directory = os.getcwd() + "data/" + self.writing_type
         for filename in os.listdir(directory):
             if filename.endswith(".txt"):
                 with open(directory + "/" + filename, 'r', encoding='utf-8') as f:
@@ -35,7 +35,7 @@ class WritingData:
 
 
     def save_data(self):
-        self.dataPath = os.getcwd() + "webapp/data/" + self.writing_type + "/data.csv"
+        self.dataPath = os.getcwd() + "data/" + self.writing_type + "/data.csv"
         with open(self.dataPath, 'w') as csv_file:  
             writer = csv.writer(csv_file)
             writer.writerow(["prompt", "completion"])
