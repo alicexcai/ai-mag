@@ -1,0 +1,9 @@
+promptTemplates: {
+
+  poetry: {
+    variables: ["example", "topic"],
+    template: "\nGenerate a beautiful piece of poetry about {topic}.\nOutput: {example}\n\n###",
+    prefix: "\nGenerate a beautiful piece of poetry about {topic}.\nOutput:",
+  }
+
+}
